@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="1"
+                fetch="https://github.com/rvvishal" />
+        <remote name="sdm439"
+                fetch="https://github.com/Xiaomi-SDM439-Development" />
+           
+        <project path="device/xiaomi/sdm439-common" name="device-xiaomi-sdm439-common" remote="1" revision="11" clone-depth="1" />
+        <project path="device/xiaomi/olives" name="android_device_xiaomi_olives" remote="sdm439" revision="lineage-18.1" clone-depth="1" />  
+        
+</manifest>
